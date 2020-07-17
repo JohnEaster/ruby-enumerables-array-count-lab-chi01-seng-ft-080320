@@ -1,4 +1,4 @@
-def count_strings(array = [1, "hello", [], 5.01, "world", :name, { a: 1 }])
+def count_strings(array = ["", "hello", "world", 4, 1, 5, [], {}])
   array.count do
     |element|
     element.string?
