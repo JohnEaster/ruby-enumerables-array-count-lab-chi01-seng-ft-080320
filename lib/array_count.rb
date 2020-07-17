@@ -1,6 +1,6 @@
 def count_strings(array = ["", "hello", "world", 4, 1, 5, [], {}])
   array.count { |element| element.class == String }
-  
+end
   
   
   
